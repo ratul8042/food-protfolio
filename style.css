@@ -40,6 +40,7 @@ span{
 
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .h-width{
     width: 50%;
@@ -54,13 +55,20 @@ section{
     padding: 15px 40px;
     color: white;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(57, 100, 64),rgb(5, 177, 33));
+    background-image: linear-gradient(rgb(9, 49, 17),rgb(5, 177, 33));
     font-weight: 700;
 }
 
+.about-us{
+    background-color: rgb(170, 46, 46);
+    color: white;
+}
 
-
-
-image{
-    display: ;
+.link-btn2{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(48, 3, 3),rgb(243, 40, 40));
+    font-weight: 700;
 }
