@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -104,4 +103,46 @@ footer{
     color: blanchedalmond;
     text-align: center;
     padding: 5px 40px 80px 40px;
+}
+
+.social{
+    list-style: none;
+    text-align: center;
+}
+
+.social > li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.social >li > a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.face{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(6, 64, 253),rgb(15, 19, 255));
+    font-weight: 700;
+}
+
+.twit{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(101, 150, 255),rgb(90, 58, 233));
+    font-weight: 700;
+}
+
+.insta{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(221, 82, 2),rgb(128, 57, 0));
+    font-weight: 700;
 }
